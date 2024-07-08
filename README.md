@@ -38,8 +38,8 @@ pip install -r requirements.txt
   - Update the `ETL_AirbnbNYC.py` script with your PostgreSQL credentials.
   
 4. Running the ETL Process
-  1. Place the Airbnb NYC dataset in the `data/` directory.
-  2. Run the ETL script:
+  - Place the Airbnb NYC dataset in the `data/` directory.
+  - Run the ETL script:
 
 ```
 python3 scripts/ETL_AirbnbNYC.py run
