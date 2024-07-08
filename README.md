@@ -6,19 +6,19 @@ ETL Process using MetaFlow Lib.
 ETL_AirbnbNYC/
 │
 ├── data/ # Directory for dataset
-│ └── AB_NYC_2019.csv # Your dataset
+│ └── AB_NYC_2019.csv # dataset
 │
 ├── scripts/ # Directory for scripts
-│ └── ETL_AirbnbNYC.py # Your ETL script
+│ └── ETL_AirbnbNYC.py # ETL script
 │
 ├── README.md # Instructions and documentation
 │
-└── requirements.txt # Dependencies (if any)
+└── requirements.txt # Dependencies
 ```
 
 Setup Instructions
 Prerequisites
-Python 3.x
+Python 3.8
 PostgreSQL
 Metaflow
 Installation
@@ -34,11 +34,12 @@ pip install -r requirements.txt
 ```
 
 3. Set up PostgreSQL:
-- Create a PostgreSQL database and user.
-- Update the `ETL_AirbnbNYC.py` script with your PostgreSQL credentials.
-Running the ETL Process
-1. Place the Airbnb NYC dataset in the `data/` directory.
-2. Run the ETL script:
+  - Create a PostgreSQL database and user.
+  - Update the `ETL_AirbnbNYC.py` script with your PostgreSQL credentials.
+  
+4. Running the ETL Process
+  1. Place the Airbnb NYC dataset in the `data/` directory.
+  2. Run the ETL script:
 
 ```
 python3 scripts/ETL_AirbnbNYC.py run
